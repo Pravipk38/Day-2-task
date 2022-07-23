@@ -1,0 +1,28 @@
+Difference between window screen and document Document:
+
+Document:
+ 1. It represents any HTML document or web page that is loaded in the browser.
+ 2. It is loaded inside the window.It is the object of window property.
+  3. All the tags, elements with attributes in HTML
+are part of the document.
+4. We can access the document from a window using the window.document 
+5. we can add a content by accessing a html element.The document is part of DOM. 
+6. if you type window.document.location or document.location, you will get location object printed. and you can browser host,hostname,origin ,protocol ,port etc.
+
+
+
+Window:
+We can access the window from the window only.i.e.window.window :
+
+ 1.It represents a browser window or frame that displays the contents of the webpage 
+2. It is the very first object that is loaded in the browser.
+ 3. We can access the window from the window only.i.e.window.window 
+ 4. The window is part of BOM, 
+ 
+ syntax: window.propertyname;
+
+Screen: 
+1. The JavaScript screen object holds information of browser screen.
+ 2. It can be used to display screen width, height, colorDepth, pixelDepth etc. 
+ 3. Screen object doesn't have any methods as in window and document objects.
+ Syntax: window.screen
